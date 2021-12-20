@@ -10,9 +10,9 @@ function App() {
       <Header/>
       <div className='main-content'>
         <div className='filter-panel'>
-          <input type="text"></input>
-          <input type="text"></input>
-          <input type="text"></input>
+          <input type="text" placeholder='Search By First Name...' className='search-input'></input>
+          <input type="text" placeholder='Search By Last Name...' className='search-input'></input>
+          <input type="text" placeholder='Search By Age...' className='search-input'></input>
           <div className='sex checkboxes'>
             <div>
               <input type="checkbox" name="male"/>
