@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
 
 *{
-  font-family: 'Mukta', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   outline: none;
 }
 
 body{
   margin:0;
-  background-color: rgb(156, 179, 197)
+  background-color: rgb(255, 255, 255)
 }
 
 /* Header */
@@ -15,30 +15,40 @@ body{
 header{
   display: flex;
   margin-bottom: 30px;
+  padding: 20px;
+  align-items: center;
 }
 
 
 img{
   width: 180px;
   height:122px;
-  margin-right: 50px
+  margin-right: 20px;
 }
 
 h1{
   color: grey;
+  width: 70%;
+  text-align: center;
 }
 
+.main-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* Filters */
 
 .filter-panel{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around ;
+  width: 60%;
 }
 
 .search-input{
   background-color: transparent;
-  margin-right: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -105,6 +115,10 @@ h1{
 
 .users-wrapper{
   margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .user-container{
@@ -112,4 +126,5 @@ h1{
   margin-bottom: 20px;
   padding:10px 0px 10px 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 50%;
 }
